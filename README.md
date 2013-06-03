@@ -19,6 +19,11 @@ Classes
  * LeagueTable -> Collection -> TeamScoreModel
  * LeagueTable -> TeamScoreView (rebinding elements to visualize sort oder)
 
+## Tested on
+
+ * Chrome
+ * Firefox
+
 ## Todo
 
  * Cross Browser testing.

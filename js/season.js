@@ -33,7 +33,7 @@ var Season = null;
 						console.log( 'season ended - end time: ', new Date() );
 						clearInterval( playSeasonInterval );
 					}
-				}, 1000 ); // 200 );
+				}, 150 );
 			}
 		}
 

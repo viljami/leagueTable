@@ -28,6 +28,15 @@ var LeagueTableView = null;
 		this.update = function () {
 			this._model.getModels().forEach( function ( model, index ) {
 				model.updateIndex( index );
+				var rowIndex = model.getIndex();
+				if( rowIndex.current > rowIndex.old ) {
+					_tableBody.children[ index ].className = 'error';
+				} else if( rowIndex.current < rowIndex.old ) {
+					_tableBody.children[ index ].className = 'success';
+				} else {
+					_tableBody.children[ index ].className = '';
+				}
+				console.log( rowIndex );
 				model.getView().forceRebindElements( _tableBody.children[ index ].children );
 			});
 		};

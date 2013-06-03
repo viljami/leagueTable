@@ -79,7 +79,8 @@ var TeamScoreModel = null;
 
 		// TODO: Real math 
 		this.getPoints = function () {
-			return _data.gamesWon * 10 + _data.gamesDrawn - _data.gamesLost * 5 + _data.goalsScored - _data.goalsAgainst;
+			return _data.gamesWon * 3 + _data.gamesDrawn;
+			//return _data.gamesPlayed + _data.getGoalDifference;
 		};
 
 		return this;

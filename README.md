@@ -2,7 +2,7 @@
 
 Football season 2011. Testing out table sorting, element data binding and animation. No JavaScript libaries used.
 
-    Something goes wrong, but I don't know enough football to be able to calculate the scores or wether it is going right! :D
+ * Something goes wrong. I don't know enough football to be able to calculate the scores or wether it is going right! :D
 
 ## Structure
 

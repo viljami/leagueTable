@@ -3,7 +3,7 @@ var TeamScoreView = null;
 (function () {
 	// options = { model: TeamModel, parentElement: <tbody> }
 	TeamScoreView = function ( options ) {
-		if( !options || !options.model || !options.parentElement ) {
+		if( !options || !options.model || !options.parentElement ) {
 			console.log( 'TeamScoreView: options parameters missing!', options );
 			return this;
 		}
